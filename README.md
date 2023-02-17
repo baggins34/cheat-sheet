@@ -32,6 +32,8 @@
 * rename 's/^/office_/' *
 ## Rename 'chessboard-R' with 'right' in names of files
 * rename "s/chessboard-R/right/g" *
+## Learn your IP adress
+* hostname -I
 
 # GIT CHEATS ----------------------------------------------------------------------------
 * git branch
