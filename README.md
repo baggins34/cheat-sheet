@@ -24,6 +24,9 @@
 * ls *.json | wc -l
 ## Cut a video
 * ffmpeg -ss 00:00:00(Where to start) -t 00:01:00(duration) -i video.mp4 -vcodec copy copy_video.mp4
+## Concat A Video
+*  for f in *.mp4; do echo "file '$f'" >> videos.txt; done
+*  ffmpeg -f concat -i videos.txt -c copy output.mp4
 ## Remove blank spaces
 * rename "s/ *//g" *
 ## Replace spaces in file names with underscore
