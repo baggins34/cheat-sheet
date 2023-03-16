@@ -12,7 +12,7 @@
 # UBUNTU CHEATS --------------------------------------------------------------------
 * Create txt File: cat > something.txt (Then click 'enter' write something and then ctrl+D)
 ## Convert jpeg to png
-* find . -name "*.jpeg" -exec mogrify -format png {} \;
+* find . -name "*.jpeg" -exec mogrify -format png {} \\;
 ## Check the extensions for png
 * find . -type f -name "*.png"
 ## Delete jpeg files
