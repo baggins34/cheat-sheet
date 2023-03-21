@@ -5,6 +5,7 @@
 * conda env create -f something.yaml
 * conda create --name <env>
 * conda env update --file something.yaml --prune
+* conda install -c conda-forge numpy==1.19.5
 
 * pip install -r requirements.txt
 * conda list -e > requirements.txt
