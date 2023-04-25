@@ -49,6 +49,8 @@
 * git stash 
 * git pull
 * git stash pop
+## Preventing certificate verification error
+* git -c http.sslVerify=false clone https://github.com/opencv/opencv.git
   
   
 # OTHER CHEATS ----------------------------------------------------------------------
