@@ -49,6 +49,8 @@
 ## Zip and unzip a folder
 * zip -r frodo.zip frodo
 * unzip frodo.zip -d frodo
+## Video stream from the webcam
+* ffplay /dev/video0
 
 # GIT CHEATS ----------------------------------------------------------------------------
 * git branch
