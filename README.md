@@ -39,6 +39,16 @@
 * rename "s/chessboard-R/right/g" *
 ## Learn your IP adress
 * hostname -I
+## Read a file via command line and edit it
+* nano abc.txt
+* cat abc.txt (only reading via terminal)
+## Secure copy from machine A (1.1.1.1) to machine B(2.2.2.2)
+* scp frodo@1.1.1.1:/home sam@2.2.2.2:/home
+## Delete a file
+* rm scenario.zip
+## Zip and unzip a folder
+* zip -r frodo.zip frodo
+* unzip frodo.zip -d frodo
 
 # GIT CHEATS ----------------------------------------------------------------------------
 * git branch
