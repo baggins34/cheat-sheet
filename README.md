@@ -51,6 +51,8 @@
 * unzip frodo.zip -d frodo
 ## Video stream from the webcam
 * ffplay /dev/video0
+## Information about a video
+* ffmpeg -i filename
 
 # GIT CHEATS ----------------------------------------------------------------------------
 * git branch
