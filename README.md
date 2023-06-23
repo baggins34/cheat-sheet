@@ -53,6 +53,8 @@
 * ffplay /dev/video0
 ## Information about a video
 * ffmpeg -i filename
+## Open bash profile
+* nano ~/.bash_profile
 
 # GIT CHEATS ----------------------------------------------------------------------------
 * git branch
