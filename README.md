@@ -78,5 +78,7 @@
 # PYTHON CHEATS --------------------------------------------------------------------
 ## Append a txt file in the project
 * txt_file = open('path_to_txt_file.txt', 'a')
+  
   txt_file.write(f'\nThe counter: {detection.data}')
+  
   txt_file.close()
