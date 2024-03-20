@@ -55,6 +55,8 @@
 * ffmpeg -i filename
 ## Open bash profile
 * nano ~/.bash_profile
+## To Check the ROS2 Version
+* printenv ROS_DISTRO
 
 # GIT CHEATS ----------------------------------------------------------------------------
 * git branch
