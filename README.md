@@ -57,6 +57,8 @@
 * nano ~/.bash_profile
 ## To Check the ROS2 Version
 * printenv ROS_DISTRO
+## Zip a folder with Password
+* zip -r -e the_zip_name.zip the_folder/
 
 # GIT CHEATS ----------------------------------------------------------------------------
 * git branch
