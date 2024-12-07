@@ -89,7 +89,6 @@
 
 ##  Create EXE 
   pyinstaller --onefile --console `
-  --onefile --console `
  --hidden-import=tkinter `
  --hidden-import=openpyxl `
  --hidden-import=pandas `
