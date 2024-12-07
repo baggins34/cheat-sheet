@@ -86,3 +86,17 @@
   txt_file.write(f'\nThe counter: {detection.data}')
   
   txt_file.close()
+
+##  Create EXE 
+  pyinstaller --onefile --console `
+  --onefile --console `
+ --hidden-import=tkinter `
+ --hidden-import=openpyxl `
+ --hidden-import=pandas `
+ --hidden-import=geopy `
+ --hidden-import=numpy `
+ --hidden-import=datetime `
+ --hidden-import=csv `
+ --hidden-import=matplotlib `
+ --collect-all openpyxl `
+ .\the_python_script.py
